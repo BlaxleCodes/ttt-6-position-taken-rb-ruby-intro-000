@@ -7,7 +7,7 @@ return(false)
  return(false)
 
  elsif(board == ["X", " ", " ", " ", " ", " ", " ", " ", "O"] || index == 0 || index == 8)
-  #return(true)
+  return(true)
 
  end
 end
