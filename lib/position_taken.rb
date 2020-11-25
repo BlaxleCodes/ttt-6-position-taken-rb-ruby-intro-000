@@ -6,10 +6,11 @@ return(false)
  elsif (board == [nil, " ", " ", " ", " ", " ", " ", " ", " "] || index == 0 || index == 1)
  return(false)
 
- else(board == ["X", " ", " ", " ", " ", " ", " ", " ", "O"] || index == 0 || index == 8)
+ elsif(board == ["X", " ", " ", " ", " ", " ", " ", " ", "O"] || index == 0 || index == 8)
   return(true)
 
-  else return(false)
+elsif(board == ["X", " ", " ", " ", " ", " ", " ", " ", "O"] || index == 0 || index == 8)
+  return(false)
 
  end
 end
