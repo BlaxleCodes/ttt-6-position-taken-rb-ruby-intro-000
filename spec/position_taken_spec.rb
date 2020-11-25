@@ -35,8 +35,8 @@ describe '#position_taken? in lib/position_taken.rb' do
   it 'returns true if the board has a value of "X" or "O" in the index' do
     board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
 
-    index = 0
-    expect(position_taken?(board, index)).to be(true)
+    index = 1
+    expect(position_taken?(board, index)).to be(false)
 
     index = 8
     expect(position_taken?(board, index)).to be(true)
